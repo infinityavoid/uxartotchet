@@ -669,6 +669,9 @@ main {
     }
 }
 
+.cell__content .cell__content-line:not(.centred) .cell-item:first-child .cell-item__title {
+    text-wrap: nowrap;
+}
 
 @media (min-width: 1921px) {
     .cell-item__container {
@@ -677,9 +680,7 @@ main {
 
     .category .cell:nth-child(2) {
         flex: 1;
-        .cell__content .cell__content-line:not(.centred) .cell-item:first-child .cell-item__title {
-            text-wrap: nowrap;
-        }
+
         .cell-item {
             margin: 8px 0;
 
@@ -777,6 +778,10 @@ main {
 @media (max-width: 1699px) {
     .cell__content {
         flex-direction: column;
+    }
+
+    .cell__content .cell__content-line:not(.centred) .cell-item:first-child .cell-item__title {
+        text-wrap: wrap;
     }
 
     .desktop {
