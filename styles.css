@@ -170,6 +170,8 @@ main {
 
 .cell__table .col-2 {
     width: 284px;
+    justify-content: center;
+    display: flex;
 }
 
 .cell__table .col-3 {
@@ -205,7 +207,7 @@ main {
 
 .cell__table-th:last-child {
     display: flex;
-    justify-content: center;
+    justify-content: end;
 }
 
 .cell__table-td {
@@ -229,15 +231,13 @@ main {
 
 .cell__table-row .col-2 {
     display: flex;
-    justify-content: flex-end;
-    padding-right: 74px;
+    justify-content: center;
     font-weight: 500;
 }
 
 .cell__table-row .col-3 {
     display: flex;
     justify-content: flex-end;
-    padding-right: 20px;
     font-weight: 500;
 }
 
@@ -245,7 +245,7 @@ main {
     background-color: var(--grey-1);
     border-radius: 16px;
     display: flex;
-    gap: 40px;
+    gap: 20px;
     padding: 30px;
     flex: 1;
     min-height: 144px;
@@ -404,7 +404,6 @@ main {
 }
 
 .cell-legend__table-td {
-    /* display: flex; */
     gap: 0px;
     padding: 11px 8px;
     display: grid;
@@ -741,6 +740,7 @@ main {
 
     .cell-item-block {
         padding: 30px 40px;
+        gap: 30px;
     }
 
     .cell-item-block.small {
@@ -755,15 +755,8 @@ main {
         flex: 1
     }
 
-    .cell__table-th.col-2 {
-        display: flex;
-        padding-right: 74px;
-        justify-content: flex-end;
-    }
-
     .cell__table-th:last-child {
         justify-content: flex-end;
-        padding-right: 20px;
     }
 
     .cell-legend__container {
