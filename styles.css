@@ -281,6 +281,7 @@ main {
     gap: 12px;
     align-items: baseline;
     height: 40px;
+    text-wrap: nowrap;
 }
 
 .cell-item__count.violet-dark {
@@ -775,7 +776,7 @@ main {
 
 }
 
-@media (max-width: 1699px) {
+@media (max-width: 1919px) {
     .cell__content {
         flex-direction: column;
     }
